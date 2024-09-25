@@ -37,9 +37,9 @@ In our experiments, we placed the downloaded data folder in the same root direct
 
 
 ## Training
-With your environment set up and data ready, you can start training the model. To begin training, run the `agqa_v2_mist.sh` shell script located in the `shells\` directory. 
+With your environment set up and data ready, you can start training the model. To begin training, run the `egoqa_gsmt.sh` shell script located in the `shells\` directory. 
 ```
-./shells/egoqa_gsmt.sh.sh
+./shells/egoqa_gsmt.sh
 ```
 Alternatively, input the command below on the terminal to start training.
 ```
