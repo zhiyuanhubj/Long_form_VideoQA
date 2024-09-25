@@ -1,4 +1,4 @@
-# MIST: Multi-modal Iterative Spatial-Temporal Transformer for Long-form Video Question Answering
+# Encoding and Controlling Global Semantics for Long-form Video Question Answering
 [![LICENSE](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/)
 ![PyTorch](https://img.shields.io/badge/pytorch-1.11.0-%237732a8)
