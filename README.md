@@ -28,8 +28,8 @@ $ cd Long_form_VideoQA
 $ pip install -r requirements.txt
 ```
 
-## Data Preparation
-You need to obtain necessary dataset and features. You can download the dataset annotation files and features directly from our online drive:
+## MAD-QA and Ego-QA datasets
+We construct two novel datasets MAD-QA and Ego-QA for authentically long video question answering. You can download the dataset annotation files and features directly from our online drive:
 
 [Download from Google Drive](https://drive.google.com/drive/folders/1T22ixENJvTn6wrARj8KX5dr6hYsPB9D6?usp=drive_link)
 
