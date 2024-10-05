@@ -29,12 +29,15 @@ $ pip install -r requirements.txt
 ```
 
 ## MAD-QA and Ego-QA datasets
-We construct two novel datasets MAD-QA and Ego-QA for authentically long video question answering. You can download the dataset annotation files and features directly from our online drive:
+We construct two novel datasets MAD-QA and Ego-QA for authentically long video question answering. In our experiments, we placed the downloaded data folder in the same root directory as the code folder. 
 
-[Download from Google Drive](https://drive.google.com/drive/folders/1T22ixENJvTn6wrARj8KX5dr6hYsPB9D6?usp=drive_link)
+#### Question-and-Answer Annotations
 
-In our experiments, we placed the downloaded data folder in the same root directory as the code folder.
+We publish and maintain our datasets at [EgoQA@HF](https://huggingface.co/datasets/thongnguyen5999/egoqa) and [MADQA@HF](https://huggingface.co/datasets/thongnguyen5999/madqa)
+.
+#### Video Features
 
+You can download the video features directly from our online drive: [Download from Google Drive](https://drive.google.com/drive/folders/1T22ixENJvTn6wrARj8KX5dr6hYsPB9D6?usp=drive_link)
 
 ## Training
 With your environment set up and data ready, you can start training the model. To begin training, run the `egoqa_gsmt.sh` shell script located in the `shells\` directory. 
