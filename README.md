@@ -1,7 +1,7 @@
 # Encoding and Controlling Global Semantics for Long-form Video Question Answering
-[![LICENSE](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/)
-![PyTorch](https://img.shields.io/badge/pytorch-1.11.0-%237732a8)
+<a href="https://nguyentthong.github.io/Long_form_VideoQA/" target="_blank"><img alt="Homepage" src="https://img.shields.io/badge/🌍 Homepage-d35400?color=d35400" /></a>
+<a href="https://arxiv.org/abs/2405.19723" target="_blank"><img alt="Paper" src="https://img.shields.io/badge/📄 Paper-28a745?color=28a745" /></a>
+<a href="https://huggingface.co/datasets/thongnguyen5999/egoqa" target="_blank"><img alt="Data" src="https://img.shields.io/badge/🤗 Hugging Face Datasets-8e44ad?color=8e44ad" /></a>
 
 A Pytorch Implementation of [[EMNLP 2024](https://arxiv.org/abs/2405.19723)] paper: Encoding and Controlling Global Semantics for Long-form Video Question Answering
 
