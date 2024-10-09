@@ -73,7 +73,7 @@ Make sure to modify the `dataset_dir`, `feature_dir`, and `save_dir` parameters 
 
 To verify that your training process is running as expected, you can refer to our training logs located in the `logs\` directory.
 
-## Training
+## Inference
 
 Upon finishing training the model, you can evaluate the model via running the `egoqa_gsmt.sh` shell script located in the `shells\test` directory.
 ```
