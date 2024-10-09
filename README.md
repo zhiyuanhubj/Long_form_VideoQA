@@ -40,9 +40,9 @@ We publish and maintain our datasets at [EgoQA@HF](https://huggingface.co/datase
 You can download the video features directly from our online drive: [Download from Google Drive](https://drive.google.com/drive/folders/1T22ixENJvTn6wrARj8KX5dr6hYsPB9D6?usp=drive_link)
 
 ## Training
-With your environment set up and data ready, you can start training the model. To begin training, run the `egoqa_gsmt.sh` shell script located in the `shells\` directory. 
+With your environment set up and data ready, you can start training the model. To begin training, run the `egoqa_gsmt.sh` shell script located in the `shells\train` directory. 
 ```
-./shells/egoqa_gsmt.sh
+./shells/train/egoqa_gsmt.sh
 ```
 Alternatively, input the command below on the terminal to start training.
 ```
@@ -72,6 +72,13 @@ python main_egoqa.py --checkpoint_dir=egoqa \
 Make sure to modify the `dataset_dir`, `feature_dir`, and `save_dir` parameters in the command above to match the locations where you have stored the downloaded data and features.
 
 To verify that your training process is running as expected, you can refer to our training logs located in the `logs\` directory.
+
+## Training
+
+Upon finishing training the model, you can evaluate the model via running the `egoqa_gsmt.sh` shell script located in the `shells\test` directory.
+```
+./shells/test/egoqa_gsmt.sh
+```
 
 ## Bibtex
 ```
